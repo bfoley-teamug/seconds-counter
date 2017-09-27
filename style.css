@@ -1,38 +1,31 @@
 body {
-	font-size: 1.8em;
-	font-family: sans-serif;
-	padding-left: 5%;
-	padding-right: 5%;
+  background: linear-gradient(135deg, white 40%, #b3b4b3); 
+  color: #484848;
+  font-family: 'Khula', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-h1 {
-	font-size: 3em;
-  margin: 15px 0 40px; 
-	color: #139f00;
-	text-shadow: 2px 1px #d7e4d6;
+
+h1 { 
+  margin: 1.5em 0 .7em; 
+  text-align: center;
 }
 
+h3 { 
+  margin: 1.5em 0 .7em; 
+  text-align: center;
+}
 
 input,
 button {
-  font-size: .85em;
+  
+  margin-top: 1em; 
   padding: .65em 1em;
   border-radius: .3em;
-  outline: 0;
-}
-
-input {
-  border: 1px solid #dcdcdc;
-  margin: 2px; 
-}
-
-button {
-  color: white;
-  background: grey; 
-  margin: 12px;
-  border: solid 1px;
-  border-color: rgba(0, 0, 0, .1);
-  cursor: pointer;
+  height: 80px; 
 }
 
 button:active {  
@@ -44,4 +37,18 @@ button:focus {
   border-color: #2b6024;
   border: solid 2px;
   background-color: lavender;
+}
+
+input {
+  border: 1px solid grey;
+  width: 200px;  
+}
+ 
+.input-group-addon{
+  height: 80px;
+  margin-top: 1em;
+}
+
+.numberColor {
+  color: #0000da;  
 }
