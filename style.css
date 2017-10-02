@@ -29,18 +29,19 @@ button {
 }
 
 button:active {  
-  background-color: lavender;
+  background-color: #0000da;
 }
 
 button:focus {
-  color: #2b6024;
+  color: #0000da;
   border-color: #2b6024;
   border: solid 2px;
-  background-color: lavender;
+ 
 }
 
 input {
   border: 1px solid grey;
+  text-align: right; 
   width: 200px;  
 }
  
@@ -52,3 +53,5 @@ input {
 .numberColor {
   color: #0000da;  
 }
+
+ 
